@@ -25,7 +25,7 @@ public class App {
                        double km = scan.nextDouble();
                        double milhas = km * 0.621371;
 
-                         System.out.println(km + " km = " + milhas + " milhas.");
+                         System.out.printf("%.2f km = %.2f milhas \n" , km , milhas);
 
                              System.out.print("Escolha uma opção novamente: ");
                              opcao = scan.nextInt();
@@ -38,7 +38,7 @@ public class App {
                        double celsius = scan.nextDouble();
                        double fahren = (celsius * 9/5) + 32;
 
-                         System.out.println(celsius + " °C = " + fahren + " °F");
+                         System.out.printf("%.2f °C = %.2f °F \n" , celsius , fahren);
 
                              System.out.println("Escolha uma opção novamente: ");
                              opcao = scan.nextInt();
@@ -51,7 +51,7 @@ public class App {
                        double kg = scan.nextDouble();
                        double libras = kg * 2.20462;
 
-                         System.out.println(kg + " kg = " + libras + " libras.");
+                         System.out.printf("%.2f kg = %.2f libras \n" , kg , libras);
 
                              System.out.println("Escolha uma opção novamente: ");
                              opcao = scan.nextInt();
