@@ -59,7 +59,7 @@ public class App {
                      break;    
 
                  default:
-                             System.out.println("Opção inválida, tente outra: ");
+                             System.out.print("Opção inválida, tente outra: ");
                              opcao = scan.nextInt();
                              
                     break;
